@@ -4,6 +4,7 @@ import Headings from "../../components/section_heading";
 import ProductCard from "../../components/common/productCard";
 import SpecialDeal from "../../components/special_deal";
 import ServiceQuality from "../../components/service_quality";
+import CategoryContainer from "../../components/category_container";
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
       </div>
       <div className="product-display-section">
         <Headings />
-        <ProductCard />
+        <CategoryContainer />
       </div>
       <SpecialDeal />
       <div className="product-display-section">

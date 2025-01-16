@@ -9,13 +9,10 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/signup" element={<Signup />} />
           <Route
             path="*"
             element={
@@ -28,7 +25,7 @@ function App() {
           {/* Catch-all route for 404s */}
         </Routes>
       </Router>
-      <Footer/>
+      <Footer />
     </>
   );
 }
